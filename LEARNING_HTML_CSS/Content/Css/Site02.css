@@ -1,0 +1,57 @@
+﻿/*
+td
+{
+	padding: 0;
+}
+*/
+
+table#layout td {
+	padding: 0;
+}
+
+/*
+table
+{
+	width: 770px;
+}
+*/
+
+/*
+table.layout
+{
+	width: 770px;
+}
+*/
+
+/*
+#layout
+{
+	width: 770px;
+}
+*/
+
+table#layout {
+	width: 770px;
+}
+
+td#menu {
+	width: 150px;
+	height: 200px;
+	border: 1px solid Black;
+}
+
+td#main {
+	width: 620px;
+	height: 200px;
+	border: 1px solid Black;
+}
+
+td#header, td#footer {
+	height: 80px;
+	border: 1px solid Black;
+}
+
+td#subHeader, td#subFooter {
+	height: 24px;
+	border: 1px solid Black;
+}

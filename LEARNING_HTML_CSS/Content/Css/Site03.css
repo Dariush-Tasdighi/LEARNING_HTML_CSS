@@ -1,0 +1,151 @@
+﻿body {
+	background-color: #CED8ED;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	background-image: url(../Images/Back.gif);
+}
+
+table#layout td {
+	padding: 0px;
+}
+
+table#layout {
+	width: 770px;
+}
+
+td#menu {
+	padding: 4px;
+	width: 150px;
+	height: 200px;
+	border: 1px outset;
+	background-color: #2B4FC3;
+}
+
+td#main {
+	padding: 4px;
+	width: 620px;
+	height: 200px;
+	border: 1px inset;
+	background-color: #FFFFFF;
+}
+
+td#header {
+	height: 80px;
+	border: 1px outset;
+	background-color: #2B4FC3;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left top;
+	background-image: url(../Images/Header.gif);
+}
+
+td#footer {
+	height: 80px;
+	border: 1px outset;
+	background-color: #2B4FC3;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left top;
+	background-image: url(../Images/Footer.gif);
+}
+
+td#subHeader, td#subFooter {
+	height: 24px;
+	border: 1px outset;
+	padding: 1px 4px 1px 4px;
+	background-color: #C0C0C0;
+}
+
+a {
+	color: Blue;
+	text-decoration: none;
+}
+
+td#subHeader a, td#subFooter a {
+	color: Red;
+}
+
+a:link {
+	color: Blue;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid Blue;
+}
+
+a:visited {
+	color: Blue;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid Blue;
+}
+
+a:hover {
+	color: Red;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 0px solid;
+}
+
+a:active {
+	color: Red;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid Red;
+}
+
+td#menu a:link {
+	color: White;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 0px solid;
+}
+
+td#menu a:visited {
+	color: White;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 0px solid;
+}
+
+td#menu a:hover {
+	color: White;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid White;
+}
+
+td#menu a:active {
+	color: White;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid White;
+}
+
+td#subHeader a:link, td#subFooter a:link {
+	color: Red;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 0px solid;
+}
+
+td#subHeader a:visited, td#subFooter a:visited {
+	color: Red;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 0px solid;
+}
+
+td#subHeader a:hover, td#subFooter a:hover {
+	color: Red;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid Red;
+}
+
+td#subHeader a:active, td#subFooter a:active {
+	color: Red;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid Red;
+}

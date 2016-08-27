@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E7731E8-E2EF-4523-A7DF-F53046BF2A93}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LEARNING_HTML_CSS</RootNamespace>
+    <AssemblyName>LEARNING_HTML_CSS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Css\Exceptions.css" />
+    <Content Include="Content\Css\Site01.css" />
+    <Content Include="Content\Css\Site02.css" />
+    <Content Include="Content\Css\Site03.css" />
+    <Content Include="Content\Css\Site04.css" />
+    <Content Include="Content\Css\Site05.css" />
+    <Content Include="Content\Css\Site06.css" />
+    <Content Include="Content\Css\Site07.css" />
+    <Content Include="Content\Images\Avatar.jpg" />
+    <Content Include="Content\Images\Back.gif" />
+    <Content Include="Content\Images\Back.jpg" />
+    <Content Include="Content\Images\Footer.gif" />
+    <Content Include="Content\Images\FooterAd.jpg" />
+    <Content Include="Content\Images\Grass.jpg" />
+    <Content Include="Content\Images\Header.gif" />
+    <Content Include="Content\Images\HeaderAd.jpg" />
+    <Content Include="Content\Images\HowToBuyOnline.jpg" />
+    <Content Include="Content\Images\Leaf.jpg" />
+    <Content Include="Content\Images\Paper.jpg" />
+    <Content Include="Content\Images\SomePicture.jpg" />
+    <Content Include="Content\Images\Spring.jpg" />
+    <Content Include="Content\Images\texture_01.gif" />
+    <Content Include="Content\Images\texture_02.png" />
+    <Content Include="Content\Images\Transparent.gif" />
+    <Content Include="Content\Images\Water.jpg" />
+    <Content Include="Global.asax" />
+    <Content Include="LEARNING_CSS\CSS001.htm" />
+    <Content Include="LEARNING_CSS\CSS002.htm" />
+    <Content Include="LEARNING_CSS\CSS003.htm" />
+    <Content Include="LEARNING_CSS\CSS004.htm" />
+    <Content Include="LEARNING_CSS\CSS005_1.htm" />
+    <Content Include="LEARNING_CSS\CSS005.htm" />
+    <Content Include="LEARNING_CSS\CSS006.htm" />
+    <Content Include="LEARNING_CSS\CSS007.htm" />
+    <Content Include="LEARNING_CSS\CSS008.htm" />
+    <Content Include="LEARNING_CSS\CSS009.htm" />
+    <Content Include="LEARNING_CSS\CSS010.htm" />
+    <Content Include="LEARNING_CSS\CSS011_1.htm" />
+    <Content Include="LEARNING_CSS\CSS011.htm" />
+    <Content Include="LEARNING_CSS\CSS012.htm" />
+    <Content Include="LEARNING_CSS\CSS013.htm" />
+    <Content Include="LEARNING_CSS\CSS014.htm" />
+    <Content Include="LEARNING_CSS\CSS015.htm" />
+    <Content Include="LEARNING_CSS\CSS016.htm" />
+    <Content Include="LEARNING_CSS\CSS017.htm" />
+    <Content Include="LEARNING_CSS\CSS018.htm" />
+    <Content Include="LEARNING_CSS\CSS019.htm" />
+    <Content Include="LEARNING_CSS\CSS020.htm" />
+    <Content Include="LEARNING_CSS\CSS021.htm" />
+    <Content Include="LEARNING_CSS\CSS022.htm" />
+    <Content Include="LEARNING_CSS\CSS023.htm" />
+    <Content Include="LEARNING_CSS\CSS024.htm" />
+    <Content Include="LEARNING_CSS\CSS025.htm" />
+    <Content Include="LEARNING_CSS\CSS026.htm" />
+    <Content Include="LEARNING_CSS\CSS027.htm" />
+    <Content Include="LEARNING_CSS\CSS028.htm" />
+    <Content Include="LEARNING_CSS\CSS029.htm" />
+    <Content Include="LEARNING_CSS\CSS030.htm" />
+    <Content Include="LEARNING_CSS\CSS031.htm" />
+    <Content Include="LEARNING_CSS\CSS032.htm" />
+    <Content Include="LEARNING_CSS\CSS033.htm" />
+    <Content Include="LEARNING_CSS\CSS034.htm" />
+    <Content Include="LEARNING_CSS\CSS035.htm" />
+    <Content Include="LEARNING_CSS\CSS036.htm" />
+    <Content Include="LEARNING_CSS\CSS037.htm" />
+    <Content Include="LEARNING_CSS\CSS038.htm" />
+    <Content Include="LEARNING_CSS\CSS039.htm" />
+    <Content Include="LEARNING_CSS\CSS040.htm" />
+    <Content Include="LEARNING_CSS\CSS041_2.htm" />
+    <Content Include="LEARNING_CSS\CSS041_1.htm" />
+    <Content Include="LEARNING_CSS\CSS041.htm" />
+    <Content Include="LEARNING_CSS\CSS042.htm" />
+    <Content Include="LEARNING_CSS\CSS043.htm" />
+    <Content Include="LEARNING_CSS\CSS044.htm" />
+    <Content Include="LEARNING_CSS\CSS045.htm" />
+    <Content Include="LEARNING_CSS\CSS046_06.htm" />
+    <Content Include="LEARNING_CSS\CSS046_05.htm" />
+    <Content Include="LEARNING_CSS\CSS046_04.htm" />
+    <Content Include="LEARNING_CSS\CSS046_03.htm" />
+    <Content Include="LEARNING_CSS\CSS046_02.htm" />
+    <Content Include="LEARNING_CSS\CSS046_01.htm" />
+    <Content Include="LEARNING_CSS\CSS046.htm" />
+    <Content Include="LEARNING_CSS\Readme.txt" />
+    <Content Include="LEARNING_HTML\Images\Spring.jpg" />
+    <Content Include="LEARNING_HTML\Learn_001.htm" />
+    <Content Include="LEARNING_HTML\Learn_002.htm" />
+    <Content Include="LEARNING_HTML\Learn_003.htm" />
+    <Content Include="LEARNING_HTML\Learn_004.htm" />
+    <Content Include="LEARNING_HTML\Learn_005.htm" />
+    <Content Include="LEARNING_HTML\Learn_006.htm" />
+    <Content Include="LEARNING_HTML\Learn_007.htm" />
+    <Content Include="LEARNING_HTML\Learn_008.htm" />
+    <Content Include="LEARNING_HTML\Learn_009.htm" />
+    <Content Include="LEARNING_HTML\Learn_010.htm" />
+    <Content Include="LEARNING_HTML\Learn_011.htm" />
+    <Content Include="LEARNING_HTML\Learn_012.htm" />
+    <Content Include="LEARNING_HTML\Learn_013.htm" />
+    <Content Include="LEARNING_HTML\Learn_014.htm" />
+    <Content Include="LEARNING_HTML\Learn_015.htm" />
+    <Content Include="LEARNING_HTML\Learn_016.htm" />
+    <Content Include="LEARNING_HTML\Learn_017.htm" />
+    <Content Include="LEARNING_HTML\Learn_018.htm" />
+    <Content Include="LEARNING_HTML\Learn_019.htm" />
+    <Content Include="LEARNING_HTML\Learn_020.htm" />
+    <Content Include="LEARNING_HTML\Learn_021.htm" />
+    <Content Include="LEARNING_HTML\Learn_022.htm" />
+    <Content Include="LEARNING_HTML\Learn_023.htm" />
+    <Content Include="LEARNING_HTML\Learn_024.htm" />
+    <Content Include="LEARNING_HTML\Learn_025.htm" />
+    <Content Include="LEARNING_HTML\Learn_026.htm" />
+    <Content Include="LEARNING_HTML\Learn_027.htm" />
+    <Content Include="LEARNING_HTML\Learn_028.htm" />
+    <Content Include="LEARNING_HTML\Work Shop 01\About.htm" />
+    <Content Include="LEARNING_HTML\Work Shop 01\Images\Dariush.jpg" />
+    <Content Include="LEARNING_HTML\Work Shop 01\Index.htm" />
+    <Content Include="Web.config" />
+    <Content Include="WORKSHOP_01\Index.html" />
+    <Content Include="WORKSHOP_01\Products\CellPhone.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10931</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10931/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

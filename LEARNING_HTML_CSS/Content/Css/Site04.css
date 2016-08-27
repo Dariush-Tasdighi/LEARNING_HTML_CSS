@@ -1,0 +1,64 @@
+﻿body {
+	background-color: #CED8ED;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	background-image: url(../Images/Back.gif);
+}
+
+td {
+	padding: 0px;
+}
+
+table#layout {
+	width: 100%;
+}
+
+td#menu {
+	width: 20%;
+	height: 200px;
+	border: 1px outset;
+	background-color: #2B4FC3;
+}
+
+td#main {
+	width: 80%;
+	height: 200px;
+	border: 1px inset;
+	background-color: #FFFFFF;
+}
+
+td#header {
+	height: 80px;
+	border: 1px outset;
+	background-color: #2B4FC3;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left top;
+	background-image: url(../Images/Header.gif);
+}
+
+td#footer {
+	height: 80px;
+	border: 1px outset;
+	background-color: #2B4FC3;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left top;
+	background-image: url(../Images/Footer.gif);
+}
+
+td#subHeader, td#subFooter {
+	height: 24px;
+	border: 1px outset;
+	background-color: #C0C0C0;
+}
+
+a {
+	color: Blue;
+	text-decoration: none;
+}
+
+td#subHeader a, td#subFooter a {
+	color: Red;
+}

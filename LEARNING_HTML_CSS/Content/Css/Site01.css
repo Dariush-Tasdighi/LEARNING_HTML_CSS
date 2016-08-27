@@ -1,0 +1,20 @@
+﻿a {
+	color: blue;
+}
+
+div a {
+	color: white;
+	font-weight: bold;
+}
+
+div {
+	margin: 10px;
+	padding: 10px;
+	background-color: black;
+}
+
+p {
+	margin: 10px;
+	padding: 10px;
+	background-color: #cccccc;
+}
