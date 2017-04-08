@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -95,14 +96,12 @@
     <Content Include="LEARNING_CSS\CSS002.htm" />
     <Content Include="LEARNING_CSS\CSS003.htm" />
     <Content Include="LEARNING_CSS\CSS004.htm" />
-    <Content Include="LEARNING_CSS\CSS005_1.htm" />
     <Content Include="LEARNING_CSS\CSS005.htm" />
     <Content Include="LEARNING_CSS\CSS006.htm" />
     <Content Include="LEARNING_CSS\CSS007.htm" />
     <Content Include="LEARNING_CSS\CSS008.htm" />
     <Content Include="LEARNING_CSS\CSS009.htm" />
     <Content Include="LEARNING_CSS\CSS010.htm" />
-    <Content Include="LEARNING_CSS\CSS011_1.htm" />
     <Content Include="LEARNING_CSS\CSS011.htm" />
     <Content Include="LEARNING_CSS\CSS012.htm" />
     <Content Include="LEARNING_CSS\CSS013.htm" />
@@ -133,20 +132,22 @@
     <Content Include="LEARNING_CSS\CSS038.htm" />
     <Content Include="LEARNING_CSS\CSS039.htm" />
     <Content Include="LEARNING_CSS\CSS040.htm" />
-    <Content Include="LEARNING_CSS\CSS041_2.htm" />
-    <Content Include="LEARNING_CSS\CSS041_1.htm" />
     <Content Include="LEARNING_CSS\CSS041.htm" />
     <Content Include="LEARNING_CSS\CSS042.htm" />
     <Content Include="LEARNING_CSS\CSS043.htm" />
     <Content Include="LEARNING_CSS\CSS044.htm" />
     <Content Include="LEARNING_CSS\CSS045.htm" />
-    <Content Include="LEARNING_CSS\CSS046_06.htm" />
-    <Content Include="LEARNING_CSS\CSS046_05.htm" />
-    <Content Include="LEARNING_CSS\CSS046_04.htm" />
-    <Content Include="LEARNING_CSS\CSS046_03.htm" />
-    <Content Include="LEARNING_CSS\CSS046_02.htm" />
-    <Content Include="LEARNING_CSS\CSS046_01.htm" />
     <Content Include="LEARNING_CSS\CSS046.htm" />
+    <Content Include="LEARNING_CSS\CSS047.htm" />
+    <Content Include="LEARNING_CSS\CSS048.htm" />
+    <Content Include="LEARNING_CSS\CSS049.htm" />
+    <Content Include="LEARNING_CSS\CSS050.htm" />
+    <Content Include="LEARNING_CSS\CSS051.htm" />
+    <Content Include="LEARNING_CSS\CSS052.htm" />
+    <Content Include="LEARNING_CSS\CSS053.htm" />
+    <Content Include="LEARNING_CSS\CSS054.htm" />
+    <Content Include="LEARNING_CSS\CSS055.htm" />
+    <Content Include="LEARNING_CSS\CSS056.htm" />
     <Content Include="LEARNING_CSS\Readme.txt" />
     <Content Include="LEARNING_HTML\Images\Spring.jpg" />
     <Content Include="LEARNING_HTML\Learn_001.htm" />
